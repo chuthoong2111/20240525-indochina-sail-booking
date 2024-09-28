@@ -1,0 +1,90 @@
+.author-content {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding: 1rem 2rem;
+  font-weight: 300;
+  border-radius: 1.5rem;
+  background: #f7f3f1;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.author-content ul {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.bg-author {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  background: #f7f3f1;
+}
+.bg-author .author-content {
+  background: transparent;
+  padding: 0;
+  gap: 1rem;
+  transform: scale(1.1);
+}
+.bg-author .author-content img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.social-web a {
+  color: #ad988e;
+}
+.social-web a svg {
+  fill: #ad988e;
+}
+.social-web a:hover {
+  color: #866f64;
+}
+.social-web h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.job-author {
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: block;
+  line-height: normal;
+  margin-right: 1rem;
+}
+
+.name-author {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  margin: 0;
+  display: inline-block;
+}
+
+.lead-author {
+  margin-top: 1rem;
+}
+
+.avt-circle {
+  position: relative;
+}
+.avt-circle img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.avt-circle .icon-star {
+  bottom: 0;
+  right: 0;
+  border-radius: 50%;
+  padding: 0.25rem;
+  position: absolute;
+  background: var(--bs-link-color);
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.avt-circle .icon-star svg {
+  max-width: 100%;
+}/*# sourceMappingURL=author.css.map */
